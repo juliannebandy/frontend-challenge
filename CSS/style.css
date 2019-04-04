@@ -19,8 +19,8 @@ body {
 nav {
   margin: 0 auto;
 padding: 10px;
-width: 420px;
-background-image: url(../Images/Top_Bar.png)
+width: 100%;
+background-image: url(../images/Top_Bar.png);
 background-repeat: no-repeat;
 background-position: top;
 
@@ -28,25 +28,18 @@ background-position: top;
 
 
 .arrivals-list {
-  width: 420px;
+  width: 100%;
 }
 
   .bus-number {
-  margin: 1%;
-  padding: 3%;
   border-bottom: 1px solid #C4C4C4;
+  background-color: #FFFFFF;
+  padding: 5%;
+  width: 100%;
+  display: inline-block;
   }
 
-
-.content {
-    background-color: #FFFFFF;
-    margin: 1%;
-    padding: 1%;
-    width: 92%;
-    display: inline-block;
-  }
-
-  div h1 {
+  h1 {
     font-size: 110%;
     font-weight: medium;
     color: #6E5C5C;
