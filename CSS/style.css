@@ -3,14 +3,14 @@
 }
 
 body {
-  background-color: #333;
+  background-color: #C4C4C4;
   font-family: sans-serif;
   font-size: 10px;
+
 }
 
 .container {
  background-color: #FFFFFF;
- border: 1px solid #000000;
  width: 420px;
  margin: 0 auto;
 
@@ -18,20 +18,25 @@ body {
 
 nav {
   margin: 0 auto;
-  background-color: black;
 padding: 10px;
 width: 420px;
+background-image: url(../Images/Top_Bar.png)
+background-repeat: no-repeat;
+background-position: top;
+
 }
 
-  .location {
-  margin: 1%;
-  padding: 3%;
-  border-bottom: 1px solid #000000;
-  }
 
-.restaurant-list {
+.arrivals-list {
   width: 420px;
 }
+
+  .bus-number {
+  margin: 1%;
+  padding: 3%;
+  border-bottom: 1px solid #C4C4C4;
+  }
+
 
 .content {
     background-color: #FFFFFF;
@@ -42,13 +47,18 @@ width: 420px;
   }
 
   div h1 {
-    font-size: 140%;
-    font-weight: bold;
-    color: #6E5C5C
+    font-size: 110%;
+    font-weight: medium;
+    color: #6E5C5C;
+    padding: 2px;
   }
 
-  h3 {
+  h2 {
     font-size: 110%;
-    font-weight: bold;
-    color: #6E5C5C
-  }
+    float: right;
+    vertical-align: right;
+}
+
+h3{
+ color: #6E5C5C;
+}
