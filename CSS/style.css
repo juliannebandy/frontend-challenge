@@ -5,23 +5,32 @@
 body {
   background-color: #C4C4C4;
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 12.5px;
 
 }
 
 .container {
- background-color: #FFFFFF;
- width: 420px;
- margin: 0 auto;
+    background-color: #FFFFFF;
+    width: 375px;
+    margin: 0 auto;
 
 }
 
 nav {
 margin: 0 auto;
-width: 100%
+width: 100%;
 background-repeat: no-repeat;
 background-position: center;
 
+}
+
+nav h1 {
+font-size: 120%;
+text-align: center;
+}
+
+.fa-inverse {
+color: blue;
 }
 
 
@@ -38,7 +47,6 @@ background-position: center;
   }
 
   h1 {
-    font-size: 110%;
     font-weight: medium;
     color: #6E5C5C;
     padding: 2px;
