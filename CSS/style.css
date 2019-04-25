@@ -52,26 +52,25 @@ nav h1 {
   width: 100%;
 }
 
-  .bus-number {
+.bus-number {
   border-bottom: 1px solid #C4C4C4;
   background-color: #FFFFFF;
   padding: 5%;
   width: 100%;
   display: inline-block;
-  }
+}
 
-  h1 {
+h1 {
     font-weight: medium;
     color: #6E5C5C;
     padding: 2px;
   }
 
-  h2 {
+h2 {
     font-size: 110%;
     float: right;
-    vertical-align: right;
 }
 
 h3{
- color: #6E5C5C;
+  color: #6E5C5C;
 }
